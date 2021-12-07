@@ -1,0 +1,20 @@
+.header {
+  padding: 25px 0;
+}
+.header_menu {
+  gap: 30px;
+}
+.menu_toggle {
+  gap: 10px;
+}
+.menu-link {
+  color: #373F41;
+}
+.button--outline {
+  padding: 11px 15px;
+  background-color: #3C64B1;
+  color: white;
+}
+.button--signin {
+  color: #3C64B1;
+}

@@ -1,0 +1,20 @@
+.product {
+  gap: 30px;
+  margin-top: 80px;
+  padding-bottom: 80px;
+}
+.product_list {
+  max-width: 255px;
+  text-align: center;
+}
+.product_list--title {
+  font-size: 18px;
+  line-height: 24px;
+  color: #373F41;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+.product_list--text {
+  font-size: 14px;
+  line-height: 20px;
+}

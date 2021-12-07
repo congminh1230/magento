@@ -1,0 +1,37 @@
+.business {
+  margin-top: 49px;
+}
+.business_header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.business_header-title {
+  font-size: 32px;
+  color: #373F41;
+  line-height: 40px;
+  margin-bottom: 24px;
+}
+.business_header-text {
+  letter-spacing: 0.3px;
+}
+.business_strategy {
+  gap: 30px;
+}
+.business_strategy-item {
+  max-width: 350px;
+  text-align: center;
+}
+.strategy-item_title {
+  font-size: 18px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.strategy-item_text {
+  font-size: 14px;
+  color: #373F41;
+  margin-bottom: 22px;
+}
+.strategy-item_link {
+  color: #3C64B1;
+  font-weight: 600;
+}
