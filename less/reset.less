@@ -1,28 +1,5 @@
 @import "variables";
-.flex {
-    display: flex;
-}
-.display(@dis) {
-    display:@dis;
-}
-.justify-content(@_jc) {
-    justify-content:@_jc;
-}
-.flex-decoration (@_fd) {
-    flex-direction:@_fd;
-}
-.align-content(@_ac) {
-    align-content:@_ac;
-}
-.flex-wrap(@_fw) {
-    flex-wrap:@_fw;
-}
-.align-items(@_a-i) {
-    align-items:@_a-i;
-}
-.background-btn (@_bg-btn) {
-    background-color:@_bg-btn;
-}
+@import "mixin";
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,300&family=Rowdies:wght@300&display=swap");
 @font-family: 'Mulish', sans-serif;
 * {
@@ -72,29 +49,6 @@ p {
 .img {
     width: 100%;
 }
-.button-inset(@color, @bg, @hover-color, @hover-bg) {
-    font-size: 12px;
-    display: inline-block;
-    // text-transform: uppercase;
-    font-weight: @font-weight-bold;
-    border: 1px solid @primary-color;
-    padding: 11px 15px;
-    background: @bg;
-    color: @color;
-    &:hover{
-        background: @hover-bg;
-        color: @hover-color;
-    }
-}
-.input(@width, @height, @bg) {
-    width: @width;
-    height:  @height;
-    padding-left: 10px;
-    font-size: 14px;
-    line-height: 20px;
-    border: 0;
-    background:@bg;
-    // color: #737B7D;
-}
+
 /*  */
 

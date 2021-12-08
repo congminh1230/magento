@@ -1,6 +1,37 @@
 .flex {
   display: flex;
 }
+.button--signin {
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 700;
+  border: 1px solid #3C64B1;
+  padding: 11px 15px;
+  background: #fff;
+  color: #3C64B1;
+}
+.button--signin:hover {
+  background: #3C64B1;
+  color: #fff;
+}
+.input-pc {
+  width: 337px;
+  height: 42px;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  border: 0;
+  background: #fff;
+}
+.input-tablet-mobile {
+  width: 170px;
+  height: 42px;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  border: 0;
+  background: #fff;
+}
 @font-face {
   font-family: 'Mulish';
   font-style: italic;

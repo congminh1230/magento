@@ -1,0 +1,60 @@
+@import "variables";
+.flex {
+    display: flex;
+}
+.display(@dis) {
+    display:@dis;
+}
+.justify-content(@_jc) {
+    justify-content:@_jc;
+}
+.flex-decoration (@_fd) {
+    flex-direction:@_fd;
+}
+.align-content(@_ac) {
+    align-content:@_ac;
+}
+.flex-wrap(@_fw) {
+    flex-wrap:@_fw;
+}
+.align-items(@_a-i) {
+    align-items:@_a-i;
+}
+.background-btn (@_bg-btn) {
+    background-color:@_bg-btn;
+}
+.button-inset(@color, @bg, @hover-color, @hover-bg) {
+    font-size: 12px;
+    display: inline-block;
+    font-weight: @font-weight__bold;
+    border: 1px solid @primary-color;
+    padding: 11px 15px;
+    background: @bg;
+    color: @color;
+    &:hover{
+        background: @hover-bg;
+        color: @hover-color;
+    }
+}
+.button--outline {
+    .button-inset(@color-white,@primary-color,@color-white,@primary-color);
+}
+.button--signin {
+    .button-inset(@primary-color,@color-white,@color-white,@primary-color);
+
+}
+.input(@width, @height, @bg) {
+    width: @width;
+    height:  @height;
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    border: 0;
+    background:@bg;
+}
+.input-pc {
+    .input(337px,42px,@color-white);
+}
+.input-tablet-mobile {
+    .input(170px,42px,@color-white);
+}

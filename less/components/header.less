@@ -1,5 +1,6 @@
-@import "variables";
-@import "reset";
+@import "../variables";
+@import "../reset";
+@import "../mixin.less";
 .header {
     padding:25px 0;
 }
@@ -25,7 +26,7 @@
     color: @title-color;
 }
 .button--outline {
-    .button-inset(@color-white,@primary-color,@color-white,@primary-color)
+    // .button-inset(@color-white,@primary-color,@color-white,@primary-color)
 }
 // .button--outline {
 //     padding: 11px 15px;
@@ -33,5 +34,5 @@
 //     color: white;
 // }
 .button--signin {
-    color: @primary-color;
+    // color: @primary-color;
 }
