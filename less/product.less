@@ -1,8 +1,12 @@
 @import "variables";
+@import "reset";
 .product{
     gap: 30px;
     margin-top: 80px;
     padding-bottom: 80px;
+    .flex;
+    .justify-content(space-around);
+    .align-items(center);
 }
 .product_list{
     max-width: 255px;
@@ -18,6 +22,11 @@
 .product_list--text{
     font-size: 14px;
     line-height: 20px;
+}
+.creativity_content-list {
+    .flex;
+    .justify-content(space-around);
+    .align-items(center);
 }
 // .my-hover-mixin(@f,@item,@center) {
 //     display: @f;

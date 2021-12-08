@@ -1,13 +1,14 @@
 @import "variables";
+@import "reset";
 .shipping {
 
 }
 .shipping_img {
     position: relative;
 }
-// .shipping_img--header {
-//     position: relative;
-// }
+.shipping_img--header {
+    width: 100%;
+}
 .shipping_content {
     position:absolute;
     top: calc(50% - 286px/2);
@@ -28,20 +29,9 @@
     font-size: 17px;
 }
 .button--start {
-    align-items: center;
-    padding: 12px 18px;
-    background: @primary-color;
-    color: @color-white;
-    margin-right: 24px;
-    font-weight: 600;
+    .button-inset(@color-white,@primary-color,@color-white,@primary-color);
+    
 }
 .button--more {
-    border:1px solid @primary-color;
-    padding: 11px 18px;
-    color:@title-color;
-    font-weight: 600;
-    &:hover{
-        background: @primary-color;
-        color: @color-white;
-    }
+    .button-inset(@primary-color,@color-white, @color-white,@primary-color);
 }

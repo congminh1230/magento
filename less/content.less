@@ -1,7 +1,12 @@
 @import "variables";
+@import "reset";
 .content{
+    .flex;
+    .justify-content(center);
+    .align-items(center);
     margin-top:100px;
     gap: 30px;
+
 }
 .content_blog{
     width: 540px;
@@ -21,19 +26,10 @@
     // color: #737B7D;
 }
 .blog_item--login input{
-    width: 377px;
-    height: 42px;
-    padding-left: 10px;
-    font-size: 14px;
-    line-height: 20px;
-    border: 0;
-    background: @color-white;
-    // color: #737B7D;
+    .input(337px,42px,@color-white);
 }
 .login-link{
-    padding: 12px 18px;
-    background: @primary-color;
-    color:@color-white;
+    .button-inset(@color-white,@primary-color,@color-white,@primary-color)
 }
 .blog_item--login-text{
     margin-top: 41px;

@@ -1,4 +1,86 @@
+.flex {
+  display: flex;
+}
+@font-face {
+  font-family: 'Mulish';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/mulish/v7/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSd-OvHg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/mulish/v7/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNRwaA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/mulish/v7/1Ptyg83HX_SGhgqO0yLcmjzUAuWexXRWwaA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rowdies';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rowdies/v5/ptRMTieMYPNBAK219hth5O4.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  font-family: 'Mulish', sans-serif;
+  color: #373F41;
+}
+/* global */
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  font-weight: 700 !important;
+}
+a:hover {
+  text-decoration: none;
+}
+.align-items {
+  align-items: center ;
+}
+ul {
+  margin: 0 !important;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none !important;
+}
+a:hover {
+  text-decoration: none;
+}
+p {
+  font-size: 16px;
+}
+.img {
+  width: 100%;
+}
+/*  */
 .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 100px;
   gap: 30px;
 }
@@ -16,7 +98,7 @@
   line-height: 22px;
 }
 .blog_item--login input {
-  width: 377px;
+  width: 337px;
   height: 42px;
   padding-left: 10px;
   font-size: 14px;
@@ -25,7 +107,15 @@
   background: #fff;
 }
 .login-link {
-  padding: 12px 18px;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 700;
+  border: 1px solid #3C64B1;
+  padding: 11px 15px;
+  background: #3C64B1;
+  color: #fff;
+}
+.login-link:hover {
   background: #3C64B1;
   color: #fff;
 }
